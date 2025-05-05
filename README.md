@@ -23,6 +23,9 @@ cd Ascend
 
 # 2. Instale as dependências do projeto
 pip install -r requirements.txt
+
+# 3. Rode o projeto com Uvicorn
+python -m uvicorn main:app --reload
 ```
 
 ---
