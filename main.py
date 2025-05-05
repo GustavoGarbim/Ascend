@@ -55,7 +55,7 @@ class Post(BaseModel):
     titulo: str
     descricao: str
     nome: str
-    data_publicacao: str  # tipo 2025-04-27
+    data_publicacao: str
 
 @app.post("/posts")
 def criar_post(post: Post):
