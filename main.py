@@ -36,7 +36,7 @@ try:
                                 ░                     
     """)
 except Exception as e:
-    print("Deu merda na conexão com o MongoDB:", e)
+    print("MongoDB is not connected:", e)
 
 app = FastAPI()
 
